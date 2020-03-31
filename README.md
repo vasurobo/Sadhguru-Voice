@@ -8,13 +8,13 @@ Please feel free to use and post your feedbacks.
 
 Sentence | Synthesized Audio
 ------------ | -------------
- Don't Complain On Artificial Intelligence| [Play](https://github.com/vasurobo/Sadhguru-Voice/blob/master/samples/dont-complain-on-artificial-intelligence.wav?raw=true)
-I like potato chips | [Play](https://github.com/vasurobo/Sadhguru-Voice/blob/master/samples/i-like-potato-chips.wav?raw=true)
-How deeply you touch another life is how rich your life. | [Play](https://github.com/vasurobo/Sadhguru-Voice/blob/master/samples/how-deeply-you-touch-another-life.wav?raw=true)
-Don't be dead serious about your life  |[Play](https://github.com/vasurobo/Sadhguru-Voice/blob/master/samples/see-dont-be-dead-serious-about-your-life.wav?raw=true)
-If god is watching us the least we can to is be entertaining | [Play](https://github.com/vasurobo/Sadhguru-Voice/blob/master/samples/if-god-is-watching-the-least.wav?raw=true)
-Namaskaram! I hate this world. | [Play](https://github.com/vasurobo/Sadhguru-Voice/blob/master/samples/namaskaram-i-hate-this-world.wav?raw=true)
-Let the people suffer and die. | [Play](https://github.com/vasurobo/Sadhguru-Voice/blob/master/samples/let-the-people-suffer-and-die.wav?raw=true)
+ Don't Complain On Artificial Intelligence| [Play](https://soundcloud.com/vasanth-kumar-266951636/dont-complain-on-artificial?in=vasanth-kumar-266951636/sets/sadhguru-voice-samples)
+I like potato chips | [Play](https://soundcloud.com/vasanth-kumar-266951636/i-like-potato-chips?in=vasanth-kumar-266951636/sets/sadhguru-voice-samples)
+How deeply you touch another life is how rich your life. | [Play](https://soundcloud.com/vasanth-kumar-266951636/how-deeply-you-touch-another?in=vasanth-kumar-266951636/sets/sadhguru-voice-samples)
+Don't be dead serious about your life  |[Play](https://soundcloud.com/vasanth-kumar-266951636/see-dont-be-dead-serious-about?in=vasanth-kumar-266951636/sets/sadhguru-voice-samples)
+If god is watching us the least we can to is be entertaining | [Play](https://soundcloud.com/vasanth-kumar-266951636/if-god-is-watching-the-least?in=vasanth-kumar-266951636/sets/sadhguru-voice-samples)
+Namaskaram! I hate this world. | [Play](https://soundcloud.com/vasanth-kumar-266951636/namaskaram-i-hate-this-world?in=vasanth-kumar-266951636/sets/sadhguru-voice-samples)
+Let the people suffer and die. | [Play](https://soundcloud.com/vasanth-kumar-266951636/let-the-people-suffer-and-die?in=vasanth-kumar-266951636/sets/sadhguru-voice-samples)
 
 ## Checkout the video
 [![Youtube Video](https://img.youtube.com/vi/Z4C08eSVYnw/0.jpg)](https://www.youtube.com/watch?v=Z4C08eSVYnw)
