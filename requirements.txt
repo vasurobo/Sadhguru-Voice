@@ -1,0 +1,9 @@
+# Note: You can install tensorflow or tensorflow-gpu (if you have GPU) but version should be 13.1 - 1.14 (TESTED)
+tensorflow==1.14.0
+falcon==1.2.0
+numpy==1.16.1
+scipy==1.2.1
+Unidecode==0.4.20
+tqdm==4.43.0
+matplotlib==2.0.2
+librosa==0.6.3

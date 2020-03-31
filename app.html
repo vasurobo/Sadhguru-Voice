@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sadhguru - Voice Clone</title>
+        <style>
+
+body,html {
+
+height : 100%;
+
+}
+
+p{
+
+color:white;
+
+}
+
+.bg-image{
+
+background-image : url('https://images.sadhguru.org/sites/default/files/media_files/iso/en/63619-theres-more-to-life-than-this-20070817_iqb_0189-e.jpg');
+
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
+
+height:100%;
+
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+      div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+.search {
+	width: 570px;
+	height: 28px;
+	border-top: 1px solid #bdbdbd;
+	border-bottom: 1px solid #d3d3d3;
+	border-right: 1px solid #d3d3d3;
+	border-left: 1px solid #d3d3d3;
+	padding-right: 30px;
+	font: 16px arial, sans-serif;
+	text-indent:5px;
+        border-radius:10px;
+
+	}
+
+.button {
+	border: 1px solid #d3d3d3;
+	background: #f3f3f3;
+	color:#696969;
+	margin-left:4px;
+	margin-right:4px;
+	margin-top: 15px;
+	font-family: arial, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 10px;
+	border-radius:5px;
+}
+
+.button:hover {
+	color: #2a2a2a;
+	border: 1px solid #bdbdbd;
+}
+
+.search:hover {
+	border:1px solid #aaaaaa;
+}
+
+	
+
+       </style>
+
+
+	</head>
+	<body>
+<div class="bg-image"></div>
+
+		<div>
+
+			<form name="vasurobo" action="#" method="POST"><br>
+                                
+				<input type="search" id="text" size="40" placeholder="Namaskaram! What you want me to say ?" class="search"><br>
+				<input type="submit" id="button" class="button" name="submit" value="Speak">
+                                <p id="message"></p>
+                                <audio id="audio" controls autoplay hidden></audio>
+			</form>
+
+
+<script>
+function q(selector) {return document.querySelector(selector)}
+q('#text').focus()
+q('#button').addEventListener('click', function(e) {
+  text = q('#text').value.trim()
+  if (text) {
+    q('#message').textContent = 'Synthesizing...'
+    q('#button').disabled = true
+    q('#audio').hidden = true
+    synthesize(text)
+  }
+  e.preventDefault()
+  return false
+})
+function synthesize(text) {
+  fetch('/synthesize?text=' + encodeURIComponent(text), {cache: 'no-cache'})
+    .then(function(res) {
+      if (!res.ok) throw Error(res.statusText)
+      return res.blob()
+    }).then(function(blob) {
+      q('#message').textContent = ''
+      q('#button').disabled = false
+      q('#audio').src = URL.createObjectURL(blob)
+      q('#audio').hidden = false
+    }).catch(function(err) {
+      q('#message').textContent = 'Error: ' + err.message
+      q('#button').disabled = false
+    })
+}
+</script>
+
+
+
+		</div>
+
+	</body>
+</html>
+
